@@ -13,7 +13,7 @@ services:
       MYSQL_PASSWORD: raspberrypints
 
   raspberrypints:
-    image: raspberrypints:latest
+    image: pabloguti/raspberrypints:latest
     restart: always
     ports:
       - "80:80"
